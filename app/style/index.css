@@ -1,0 +1,27 @@
+@font-face {
+    font-family: AlimamaShuHeiTi;
+    src: url("./AlimamaShuHeiTi-Bold.ttf") format("truetype");
+    /* src: url(./AlimamaShuHeiTi-Bold.otf);
+    src: url(./AlimamaShuHeiTi-Bold.woff);
+    src: url(./AlimamaShuHeiTi-Bold.woff2); */
+}
+
+.main {
+    background: linear-gradient(#8A9BF9, #ECEFFE);
+    padding-top: 30px;
+}
+
+.title,
+.subtitle {
+    color: #FFF;
+    font-family: AlimamaShuHeiTi;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.subtitle {
+    font-size: 18px;
+    padding-top: 12px;
+}
